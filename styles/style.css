@@ -186,10 +186,6 @@
     margin-top: 133px;
 }
 
-.about__title {
-    margin-bottom: 100px;
-}
-
 .about__logo {
     display: flex;
     align-items: center;
@@ -207,6 +203,7 @@
 }
 
 .about__title {
+    margin-bottom: 100px;
     font-weight: 700;
     font-size: 40px;
     text-transform: uppercase;
