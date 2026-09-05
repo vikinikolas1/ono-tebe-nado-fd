@@ -1,1 +1,253 @@
-/* место для вашего кода */
+.header {
+    display: flex;
+    align-items: center;
+    padding: 92px 0;
+}
+
+.header__logo {
+    width: 148px;
+    height: 105px;
+}
+
+.nav__list--header {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    padding: 0 36px 0 0;
+    font-size: 18px;
+}
+
+.circle {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border: 1px solid black;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.nav__link--current {
+    text-decoration: none;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+.header__contacts {
+    width: 240px;
+    margin-left: auto;
+}
+
+.contacts__address {
+    font-style: normal;
+}
+
+.intro {
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: 1100px;
+    height: 757px;
+    color: white;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("/images/cover.jpg");
+    background-size: cover;
+}
+
+.title__container {
+}
+
+.intro__title {
+    margin: 165px 50px 207px 50px;
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    height: 385px;
+    padding: 0;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+.title__first {
+    align-self: flex-start;
+    margin-bottom: 20px;
+}
+
+.title__second {
+    align-self: center;
+    margin-bottom: 20px;
+}
+
+.title__third {
+    align-self: flex-end;
+}
+
+.intro__auction {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    left: 50px;
+    right: 50px;
+    bottom: 50px;
+}
+
+.auction__slogan {
+    text-transform: uppercase;
+    font-size: 22px;
+    word-spacing: 15px;
+}
+
+.auction__button {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 22px;
+    border: 1px solid white;
+    padding: 12px 32px;
+}
+
+.lots {
+    margin-top: 180px;
+    margin-bottom: 120px;
+}
+
+.lots__title {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 40px;
+    padding-bottom: 27px;
+}
+
+.lots__items {
+    display: flex;
+    gap: 25px;
+    flex: 1;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.lots__item {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
+    min-width: 0;
+    padding: 48px 40px;
+    height: 596px;
+}
+
+.card__title {
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.card__text {
+    margin-top: auto;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.card-one {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("/images/card-lot-01.jpg");
+    background-size: cover;
+}
+
+.card-two {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("/images/card-lot-02.jpg");
+    background-size: cover;
+}
+
+.card-three {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("/images/card-lot-03.jpg");
+    background-size: cover;
+}
+
+.lots__show-more {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.about {
+    display: flex;
+    gap: 72px;
+    margin-bottom: 180px;
+}
+
+.about__description {
+    display: flex;
+    flex-direction: column;
+    margin-top: 133px;
+}
+
+.about__title {
+    margin-bottom: 100px;
+}
+
+.about__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: none;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.about__images {
+    width: 148px;
+    height: 114px;
+}
+
+.about__title {
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.about__text {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.first-text {
+    margin-bottom: 24px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 115px;
+}
+
+.footer__contacts {
+    width: 264px;
+}
+
+.nav__list--footer {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social {
+    display: flex;
+    gap: 48px;
+}
+
+.social__icon {
+    width: 48px;
+    height: 48px;
+}
