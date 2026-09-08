@@ -70,18 +70,20 @@
 .title__word--ono {
     letter-spacing: 27px;
     align-self: flex-start;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .title__word--tebe {
     letter-spacing: 27px;
     align-self: center;
-    margin-bottom: 20px;
+    margin-bottom: 35px;
+    padding-left: 15px;
 }
 
 .title__word--nado {
     letter-spacing: 27px;
     align-self: flex-end;
+    padding-left: 20px;
 }
 
 .intro__auction {
@@ -178,7 +180,7 @@
 .about {
     display: flex;
     gap: 72px;
-    margin-bottom: 156px;
+    margin-bottom: 152px;
     margin-left: 24px;
     padding-left: 47px;
 }
