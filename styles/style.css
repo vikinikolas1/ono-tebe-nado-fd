@@ -75,12 +75,12 @@
 
 .title__word--tebe {
     align-self: center;
-    margin-bottom: 35px;
-    margin-top: 20px;
+    margin: 20px 0 35px 10px;
 }
 
 .title__word--nado {
     align-self: flex-end;
+    margin-left: 15px;
 }
 
 .intro__auction {
@@ -238,6 +238,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: 8px;
 }
 
 .social {
