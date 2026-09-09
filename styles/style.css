@@ -76,7 +76,7 @@
 .title__word--tebe {
     align-self: center;
     margin-bottom: 35px;
-    margin-top: 7px;
+    margin-top: 20px;
 }
 
 .title__word--nado {
@@ -179,6 +179,7 @@
     gap: 72px;
     margin-bottom: 160px;
     margin-left: 24px;
+    margin-right: 24px;
     padding-left: 47px;
 }
 
@@ -216,12 +217,13 @@
     font-weight: 400;
     font-size: 20px;
     margin-bottom: 24px;
+    margin-right: 5px;
 }
 
 .footer {
     padding: 0 50px;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     margin-bottom: 115px;
 }
