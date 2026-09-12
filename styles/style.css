@@ -9,7 +9,6 @@
 .header__container {
     display: flex;
     align-items: center;
-    /* margin-right: 184px;*/
 }
 
 .nav__list {
@@ -39,9 +38,6 @@
 .nav__link--about {
     padding-left: 7px;
     padding-right: 0;
-}
-
-.nav__link--about {
     margin-left: 16px;
 }
 
@@ -58,6 +54,7 @@
 
 .header__contacts {
     width: 240px;
+    margin-bottom: 5px;
 }
 
 .contacts__link {
@@ -252,10 +249,11 @@
 }
 
 .footer {
-    margin: 0 50px;
+    margin: 0 50px 82px 50px;
     display: flex;
     align-items: flex-start;
-    margin-bottom: 82px;
+    justify-content: space-between;
+    font-size: 18px;
 }
 
 .footer__contacts {
@@ -263,13 +261,13 @@
 }
 
 .nav__list--footer {
-    list-style: none;
-    font-size: 18px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    margin-left: 8px;
-    margin-right: 177px;
+    text-align: center;
+    list-style: none;
+    margin-right: 20px;
 }
 
 .social {
