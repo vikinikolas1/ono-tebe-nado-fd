@@ -11,25 +11,33 @@
     </head>
     <body>
         <header class="header">
-            <nav class="nav--header">
-                <ul class="nav__list--header">
-                    <li class="nav__link--current"><a href="#">главная</a></li>
-                    <li><a href="#">посмотреть лоты</a></li>
-                    <li><a href="#">об аукционе</a></li>
-                </ul>
-            </nav>
-            <a href="#"
-                ><img
-                    class="header__logo"
-                    src="images/logo-black.svg"
-                    alt="Логотип"
-            /></a>
+            <div class="header__container">
+                <nav class="nav--header">
+                    <ul class="nav__list nav__list--header">
+                        <li class="nav__link--current">
+                            <a href="#">главная</a>
+                        </li>
+                        <li class="nav__link--lots">
+                            <a href="#">посмотреть лоты</a>
+                        </li>
+                        <li class="nav__link--about">
+                            <a href="#">об аукционе</a>
+                        </li>
+                    </ul>
+                </nav>
+                <a href="#"
+                    ><img
+                        class="header__logo"
+                        src="images/logo-black.svg"
+                        alt="Логотип"
+                /></a>
+            </div>
 
             <address class="contacts header__contacts">
-                <a href="tel:+99995555555" class="contacts__link"
+                <a class="contacts__link" href="tel:+99995555555"
                     >+9 999 555 5555</a
                 >
-                <a href="mailto:info@sobaka.ge" class="contacts__link"
+                <a class="contacts__link" href="mailto:info@sobaka.ge"
                     >info@sobaka.ge</a
                 >
                 <p class="contacts__address">
@@ -145,12 +153,16 @@
             </address>
 
             <nav class="nav--footer">
-                <ul class="nav__list--footer">
+                <ul class="nav__list nav__list--footer">
                     <li>
                         <a class="nav__link--current" href="#">главная</a>
                     </li>
-                    <li><a href="#">посмотреть лоты</a></li>
-                    <li><a href="#">об аукционе</a></li>
+                    <li>
+                        <a class="nav__link--lots" href="#">посмотреть лоты</a>
+                    </li>
+                    <li>
+                        <a class="nav__link--about" href="#">об аукционе</a>
+                    </li>
                 </ul>
             </nav>
 

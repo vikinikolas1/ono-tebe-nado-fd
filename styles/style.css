@@ -1,7 +1,48 @@
 .header {
+    padding: 90px 50px 92px 50px;
     display: flex;
     align-items: center;
-    padding: 92px 50px;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    /* margin-right: 184px;*/
+}
+
+.nav__list {
+    display: flex;
+    list-style: circle;
+}
+
+.nav__list--header {
+    align-items: center;
+    gap: 13px;
+    padding: 0 36px 5px 0;
+}
+
+.nav__link--current {
+    margin-right: 14px;
+    list-style: none;
+}
+
+.nav__link--current a {
+    text-decoration: none;
+}
+
+.nav__link--lots {
+    padding-left: 5px;
+}
+
+.nav__link--about {
+    padding-left: 7px;
+    padding-right: 0;
+}
+
+.nav__link--about {
+    margin-left: 16px;
 }
 
 .header__logo {
@@ -9,37 +50,22 @@
     height: 105px;
 }
 
-.nav__list--header {
-    display: flex;
-    align-items: center;
-    gap: 13px;
-    padding: 0 36px 0 0;
-    font-size: 18px;
-    list-style: circle;
-}
-
-.nav__list--header li {
-    padding-right: 13px;
-}
-
-.nav__link--current {
-    text-decoration: none;
-    list-style: none;
-}
-
 .contacts {
     display: flex;
     flex-direction: column;
-    font-size: 18px;
+    font-style: normal;
 }
 
 .header__contacts {
     width: 240px;
-    margin-left: auto;
+}
+
+.contacts__link {
+    padding-bottom: 4px;
 }
 
 .contacts__address {
-    font-style: normal;
+    padding-top: 0;
 }
 
 .intro {
@@ -58,29 +84,28 @@
     margin: 165px 50px 107px 50px;
     display: flex;
     flex-direction: column;
-    width: 1000px;
-    height: 385px;
+    min-height: 385px;
     padding: 0;
     font-size: 100px;
     font-weight: 700;
     line-height: 1;
     text-transform: uppercase;
-    letter-spacing: 27px;
+    letter-spacing: 30px;
 }
 
 .title__word--ono {
     align-self: flex-start;
+    margin-top: 5px;
     margin-bottom: 25px;
 }
 
 .title__word--tebe {
     align-self: center;
-    margin: 20px 0 35px 10px;
+    margin: 15px 0 35px 24px;
 }
 
 .title__word--nado {
-    align-self: flex-end;
-    margin-left: 15px;
+    margin-left: 613px;
 }
 
 .intro__auction {
@@ -141,30 +166,35 @@
     font-weight: 700;
     text-decoration: underline;
     text-transform: uppercase;
+    line-height: 1.2;
 }
 
 .card__text {
     margin-top: auto;
+    padding-bottom: 7px;
+    padding-top: 9px;
     font-weight: 400;
     font-size: 20px;
 }
 
 .card {
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .card--film {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
         url("../images/card-lot-01.jpg");
 }
 
 .card--book {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
         url("../images/card-lot-02.jpg");
 }
 
 .card--picture {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
         url("../images/card-lot-03.jpg");
 }
 
@@ -177,7 +207,7 @@
 .about {
     display: flex;
     gap: 72px;
-    margin-bottom: 160px;
+    margin-bottom: 156px;
     margin-left: 24px;
     margin-right: 24px;
     padding-left: 47px;
@@ -214,6 +244,7 @@
 }
 
 .about__text {
+    padding-top: 3px;
     font-weight: 400;
     font-size: 20px;
     margin-bottom: 24px;
@@ -221,11 +252,10 @@
 }
 
 .footer {
-    padding: 0 50px;
+    margin: 0 50px;
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
-    margin-bottom: 115px;
+    margin-bottom: 82px;
 }
 
 .footer__contacts {
@@ -239,6 +269,7 @@
     flex-direction: column;
     align-items: center;
     margin-left: 8px;
+    margin-right: 177px;
 }
 
 .social {
